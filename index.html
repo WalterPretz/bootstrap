@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <!--iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
@@ -44,7 +46,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="carrusel-ini">
             <div id="miCarusel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                 <button type="button" data-bs-target="#miCarusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -264,12 +266,12 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="tablas">
             <div class="container mb-3">
-                <h2 class="text-center fw-bold pt-5 pb-2 text-success">Tablas de Botstrap</h2>
+                <h2 class="text-center fw-bold pt-5 pb-2 text-success">Tablas de Bootstrap</h2>
                 <div class="table-responsive">
                 <table class="table table-striped table-hover table-bordered">
-                    <thead class="table-dark">
+                    <thead class="table-dark text-center">
                         <tr>
                             <th>No.</th>
                             <th>Nombre</th>
@@ -278,7 +280,7 @@
                             <th>Teléfono</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="text-center">
                         <tr>
                             <td>1</td>
                             <td>Juan Carlos</td>
@@ -307,21 +309,48 @@
                             <td>145679687987</td>
                             <td>2244 7859</td>
                         </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Maria Mercedes</td>
+                            <td>Pérez Enríquez</td>
+                            <td>145679687987</td>
+                            <td>2244 7859</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Maria Mercedes</td>
+                            <td>Pérez Enríquez</td>
+                            <td>145679687987</td>
+                            <td>2244 7859</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Maria Mercedes</td>
+                            <td>Pérez Enríquez</td>
+                            <td>145679687987</td>
+                            <td>2244 7859</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, quo quasi eveniet saepe libero esse! Illum id, quos dolorum eius magnam, aliquam laboriosam hic asperiores ab ratione qui itaque. Nostrum!</p></td>
+                        </tr>
                     </tbody>
                 </table>
                 </div>
             </div>
         </section>
-    </main>
+        <a href="#barra" class="float">
+            <i class="fa-solid fa-angle-up  my-float"></i>
+        </a>
         <div class="b-example-divider"></div>
-            <div class="container">
+    </main>
+        <div class="container">
             <footer class="py-3 my-4">
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Inicio</a></li>
-                <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Features</a></li>
-                <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Pricing</a></li>
-                <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="/" class="nav-link px-2 text-muted"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="nav-item"><a href="/" class="nav-link px-2 text-muted"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="nav-item"><a href="/" class="nav-link px-2 text-muted"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li class="nav-item"><a href="/" class="nav-link px-2 text-muted"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
                 <p class="text-center text-muted">© 2022 Walter Pretz</p>
             </footer>
