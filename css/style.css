@@ -1,0 +1,67 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-color: rgb(54, 0, 104);
+}
+
+.nav-link:hover{
+    background-color: rgb(24, 1, 51);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.welcome{
+    margin-bottom: -10px;
+}
+
+/*acerca*/
+.acerca{
+    height: 400px;
+    padding: 5rem;
+}
+
+.acerca_de{
+    font-size: 1.5rem;
+}
+
+.titulo{
+    font-family: 'Kenia', cursive;
+    font-size: 4rem;
+}
+
+.detalle{
+    font-family: 'Kenia', cursive;
+}
+
+/*acordion*/
+#acordion{
+    background-color: rgb(233, 231, 231);
+    height: 500px;
+    padding: 3rem;
+}
+
+/*footer*/
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+/*cuando es movil*/
+@media screen and (max-width: 767px) {
+    .acerca{
+        font-size: 1.5rem;
+        height: 600px;
+        padding: 1rem;
+    }
+
+    #acordion{
+        height: 650px;
+        padding: 1rem;
+    }
+}
